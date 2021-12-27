@@ -3,7 +3,7 @@ import AddCategory from "./components/AddCategory";
 import GifTable from "./components/GifTable";
 
 const GiftExpertApp = () => {
-  const [categories, setCategories] = useState(["Dragon Ball"]);
+  const [categories, setCategories] = useState([]);
 
   // const handleAdd = () => {
   //   setCategories(categories => [...categories, "Friends"]);
